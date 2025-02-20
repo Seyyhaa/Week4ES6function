@@ -27,7 +27,9 @@ function updateStudentGrade(studentsArray, idToUpdate, newGrade) {
     return student;
   } else {
     // Step 4 :  If the student with the provided ID is not found, log a message indicating that the student was not found and return the original array unchanged.
-    return 'Student was not found';
+    console.log( 'Student was not found');
+    return studentsArray;
+    
   }
 }
 
